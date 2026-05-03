@@ -32,25 +32,6 @@ A comprehensive enumeration assessment was conducted against a Metasploitable 2 
 
 ---
 
-## Table of Contents
-
-- [Section A — Basic Enumeration](#section-a--basic-enumeration)
-  - [Challenge 1 — NetBIOS Enumeration](#challenge-1--netbios-enumeration)
-  - [Challenge 2 — Fast Nmap Scan](#challenge-2--fast-nmap-scan)
-  - [Challenge 5 — TTL OS Fingerprinting](#challenge-5--ttl-os-fingerprinting)
-  - [Challenge 9 — FTP Banner](#challenge-9--ftp-banner)
-  - [Challenge 10 — Anonymous FTP Login](#challenge-10--anonymous-ftp-login)
-- [Section B — Intermediate Enumeration](#section-b--intermediate-enumeration)
-  - [Challenge 11 — SMB NSE Enumeration](#challenge-11--smb-nse-enumeration)
-  - [Challenge 12 — Enum4linux](#challenge-12--enum4linux)
-  - [Challenge 17 — OS Detection](#challenge-17--os-detection)
-- [Section C — Advanced Enumeration](#section-c--advanced-enumeration)
-  - [Challenge 29 — SMTP Enumeration](#challenge-29--smtp-enumeration)
-  - [Challenge 22 — Correlation Table](#challenge-22--correlation-table)
-- [Conclusion](#conclusion)
-
----
-
 ## Section A — Basic Enumeration
 
 ### Challenge 1 — NetBIOS Enumeration
