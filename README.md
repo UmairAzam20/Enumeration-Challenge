@@ -75,7 +75,7 @@ The presence of `<20>` confirms that SMB is enabled on this machine, making it a
 
 **Result Screenshot:**
 
-![C5Enumeration](screenshots/challenge&201.png)
+![C5Enumeration](screenshots/challenge%201.png)
 
 ---
 
