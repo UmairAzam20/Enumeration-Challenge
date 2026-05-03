@@ -75,7 +75,7 @@ The presence of `<20>` confirms that SMB is enabled on this machine, making it a
 
 **Result Screenshot:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 1 nbtstat output showing NetBIOS Name Table -->
+![Enumeration](screenshots/IpAddressBlueMoon.png)
 
 ---
 
