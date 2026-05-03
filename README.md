@@ -108,7 +108,7 @@ The target has an extremely large attack surface. Multiple plaintext protocols (
 
 **Result Screenshot:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 2 Zenmap output showing all 20 open ports -->
+![C5Enumeration](screenshots/challenge2stepfinal.png)
 
 ---
 
@@ -138,7 +138,7 @@ A TTL of 64 indicates the target is running a Linux/Unix based operating system.
 
 **Result Screenshot:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 5 ping output showing TTL=64 -->
+![C5Enumeration](screenshots/challenge5.png)
 
 ---
 
@@ -162,7 +162,9 @@ vsFTPd 2.3.4 contains a known backdoor vulnerability **(CVE-2011-2523)**. Simply
 
 **Result Screenshot:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 9 telnet output showing "220 (vsFTPd 2.3.4)" banner -->
+![C5Enumeration](screenshots/challenge9.png)
+
+![C5Enumeration](screenshots/challenge9%20step2.png)
 
 ---
 
@@ -195,7 +197,7 @@ Anonymous FTP login is enabled and accepted without any real password. Although 
 
 **Result Screenshot:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 10 ftp command output showing "230 Login successful" -->
+![C5Enumeration](screenshots/challenge%2010.png)
 
 ---
 
@@ -222,9 +224,14 @@ SMB user enumeration succeeded without authentication, exposing all system user 
 
 **Result Screenshots:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 11 first scan — smb-os-discovery output -->
+* First Scan
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 11 second scan — smb-enum-users output showing user list -->
+![C5Enumeration](screenshots/challenge11firststep.png)
+
+
+* Second Scan
+
+![C5Enumeration](screenshots/challenge11secstep.png)
 
 ---
 
@@ -255,13 +262,25 @@ Enum4linux successfully dumped 35 system user accounts and all SMB shares withou
 
 **Result Screenshots:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 12 — top section showing Target Info and null session confirmed -->
+* Target Info
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 12 — users section showing all 35 accounts -->
+![C5Enumeration](screenshots/challenge12.png)
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 12 — share mapping showing tmp accessible -->
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 12 — password policy showing complexity disabled -->
+* Users Section
+
+![C5Enumeration](screenshots/challenge12part3.png)
+
+
+* Share Mapping tmp accessible
+ 
+![C5Enumeration](screenshots/challenge12part4.png)
+
+
+* Password Policy
+
+![C5Enumeration](screenshots/challenge12part5.png)
+
 
 ---
 
@@ -288,7 +307,7 @@ OS detection succeeded without authentication. Knowing the exact kernel version 
 
 **Result Screenshot:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 17 Zenmap output showing OS detection results -->
+![C5Enumeration](screenshots/challenge17.png)
 
 ---
 
@@ -324,7 +343,16 @@ The SMTP VRFY command is enabled and responds differently for valid vs invalid u
 
 **Result Screenshot:**
 
-<!-- 📸 INSERT SCREENSHOT: Challenge 29 netcat output showing VRFY responses for root, msfadmin and admin -->
+* Nmap Failed scan
+  
+![C5Enumeration](screenshots/challenge29.png)
+
+![C5Enumeration](screenshots/challenge29part2.png)
+
+
+* Use Kali Linux scan
+
+![C5Enumeration](screenshots/challenge29part3%20kali.png)
 
 ---
 
